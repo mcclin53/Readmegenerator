@@ -5,14 +5,64 @@ import fs from "fs";
 // TODO: Create an array of questions for user input
 const questions = [
     {
-        type: '',
-        message: 'What is your title?',
+        type: 'input',
+        message: 'Your Project Title',
         name: 'title',
     },
     {
-        type: '',
-        message: 'What is your user story?',
-        name: 'userStory',
+        type: 'input',
+        message: 'Describe your project',
+        name: 'description',
+    },
+    {
+        type: 'input',
+        message: 'Add Installation Instructions',
+        name: 'installation',
+    },
+    {
+        type: 'input',
+        message: 'Add Usage Information',
+        name: 'usage',
+    },
+    {
+        type: 'input',
+        message: 'Add Contribution Guidelines',
+        name: 'contributing',
+    },
+    {
+        type: 'input',
+        message: 'Add Test Instructions',
+        name: 'tests',
+    },
+    {
+        type: 'list',
+        message: 'Choose a License',
+        name: 'license',
+        // add a badge near the top of the README and a notice explaining which licence the app is covered under the License section
+    },
+    {
+        type: 'input',
+        message: 'Add Your Username',
+        name: 'username',
+        // Questions section
+    },
+    {
+        type: 'input',
+        message: 'Add Your GitHub profile link',
+        name: 'githubLink',
+        // Questions section
+    },
+    {
+        type: 'input',
+        message: 'Add Your Email Address',
+        name: 'email',
+        // Questions section
+    },
+    {
+        type: 'input',
+        message: 'Add Additional Contact Info',
+        name: 'contactInfo',
+        // Questions section
     },
 ];
 
