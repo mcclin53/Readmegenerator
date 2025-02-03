@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from "inquirer";
 import fs from "fs";
+import generateMarkdown from "./utils/generateMarkdown.js";
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -38,7 +39,7 @@ const questions = [
         type: 'list',
         message: 'Choose a License',
         name: 'license',
-        choices: 'MIT', 'Apache 2.0', 'GNU General Public 3.0', 'no license'],
+        choices: ['MIT', 'Apache 2.0', 'GNU General Public 3.0', 'no license'],
         // add a badge near the top of the README and a notice explaining which licence the app is covered under the License section
     },
     {
@@ -66,26 +67,26 @@ const questions = [
         // Questions section
     },
 ];
-const fileName = 'README.md';
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile (fileName, data, {encoding:'utf-8'}, (error) => {
 if (error) {
     console.error (error);
     return;
-}
+} else {
 console.log ('Success');
-    });
-}
-
+    }
+})
+};
 // TODO: Create a function to initialize app
-function init(questions) {
-    inquirer
-    .prompt(questions);
-    .then(generateMarkdown)
+function init() {
+    inquirer.prompt(questions).then((data) => {
+        const readMe = generateMarkdown(data);
+        writeToFile('./CreatedREADME.md', readMe);
+    });
 }
 // ask the questions
 // name and place the file 
 
 // Function call to initialize app
-init(questions);
+init() ;
