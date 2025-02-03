@@ -19,9 +19,9 @@ Install node and include the inquirer package.
   ## Usage
 Run index.js and type the responses when prompted.
 
-Video demonstration: 
+Video demonstration: ![Video](https://raw.githubusercontent.com/mcclin53/Readmegenerator/main/utils/Readme%20Generator%20Demo.mp4)
 
-Screenshots: 
+Screenshots: ![Screenshot](https://github.com/mcclin53/Readmegenerator/blob/main/utils/Readme%20Generator%20Screenshot.jpg?raw=true)
 
   ## Contributing
 Contribute please.
