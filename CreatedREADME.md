@@ -1,6 +1,6 @@
 
-  
-  # asdf
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  # Title
  
   ## Table of Contents
 
@@ -8,35 +8,36 @@
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Tests](#tests)
-  - [License](license)
+  - [License](#license)
   - [Questions](#questions)
   ## Description
-asdf
+Description
 
   ## Installation
-asdf
+Instructions
 
   ## Usage
-asdf
+Usage Info
 
   ## Contributing
-asdf
+Contribution
 
   ## Tests
-asdf
+Test
 
   ## License
-
+This project is licensed under the MIT.
+      Please click the link for more info: (https://opensource.org/licenses/MIT)
 
   ## Questions
 
   If you have any questions, please refer to my contact information below:
 
-  ### GitHub Username: asdf
+  ### GitHub Username: Username
 
-  ### GitHub Link: asdf
+  ### GitHub Link: GitHub link
 
-  ### Email: asdf
+  ### Email: Email
 
-  ### Additional Contact Info: asdf
+  ### Additional Contact Info: Contact Info
 
